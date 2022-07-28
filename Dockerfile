@@ -17,3 +17,8 @@ FROM openjdk:8 as ldap
 COPY --from=build target/log4shell-server-*-jar-with-dependencies.jar /server.jar
 EXPOSE 8000
 EXPOSE 9999
+
+FROM tomcat:8.5.21
+WORKDIR /app
+COPY index.js ./
+RUN ls

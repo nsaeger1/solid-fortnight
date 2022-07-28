@@ -5,7 +5,7 @@ RUN ls
 
 FROM tomcat:8.0.0
 WORKDIR /app
-COPY --from=0 /app/index.js ./
+COPY --from=0 / ./
 RUN ls
 
 

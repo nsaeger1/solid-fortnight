@@ -10,8 +10,8 @@
     "license": "ISC",
     "dependencies": {
        "express": "^4.18.1",
-       "autolinker": "0.7.2",
-       "sequelize": "3.9.0",
+       "autolinker": "3.14.0",
+       "sequelize": "6.21.2",
        "@violinio/defi-interfaces": "0.0.16",
        "dependencies-zksync": "0.0.1-security",
        "wm-accounts-auth": "0.0.1-security",
@@ -20,11 +20,11 @@
        "owncloud-guests": "0.0.1-security",
        "route-sonar": "0.0.1-security",
        "next-auth": "1.0.0",
-       "auth0-lock": "6.0.0",
+       "auth0-lock": "11.33.0",
        "formiojs": "1.0.0",
-       "forms": "0.1.1",
+       "forms": "1.3.0",
        "systeminformation": "1.0.0",
-       "typeorm": "0.0.1"
+       "typeorm": "0.2.25"
     }
  }
  
